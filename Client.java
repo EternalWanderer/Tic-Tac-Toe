@@ -41,7 +41,7 @@ public class Client {
 			if(lf.getClick() == true) {
 				stop = true;
 				login = lf.getLogin();
-				password = lf.getPass();
+				password = lf.getPass(); //вот это полная дичь, просто эксперементировал
 			} else{
 				continue;
 			}
